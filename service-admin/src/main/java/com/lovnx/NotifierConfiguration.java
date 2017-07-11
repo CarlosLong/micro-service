@@ -28,7 +28,7 @@ public class NotifierConfiguration {
 
     //服务上线或者下线都通知
     private String[] reminderStatuses = { "DOWN" };
-    
+
     @Bean
     @Primary
     public RemindingNotifier remindingNotifier() {
